@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EduNova — zamonaviy ta'lim platformasi">
+  <title>EduNova | Bilim sari qadam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#"><span class="logo-mark">E</span> EduNova</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menyuni ochish">☰</button>
+      <nav class="nav" id="nav">
+        <a href="#courses">Kurslar</a>
+        <a href="#about">Biz haqimizda</a>
+        <a href="#reviews">Fikrlar</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="nav-cta" href="#courses">Kurs tanlash <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> Kelajagingizni bugun boshlang</div>
+          <h1>Bilim bilan<br><span>imkoniyatlar</span> sari.</h1>
+          <p class="hero-text">O‘zingizga mos kursni toping, yangi ko‘nikmalarni egallang va maqsadlaringizga ishonch bilan yeting.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#courses">Kurslarni ko‘rish <span>→</span></a>
+            <a class="button button-ghost" href="#about"><span class="play-icon">▶</span> Platforma haqida</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>12K+</strong><span>O‘quvchilar</span></div>
+            <div><strong>45+</strong><span>Video kurslar</span></div>
+            <div><strong>96%</strong><span>Mamnuniyat</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-glow"></div>
+          <div class="learning-card">
+            <div class="card-top"><span class="mini-label">SIZNING O‘SISHINGIZ</span><span class="more">•••</span></div>
+            <div class="progress-title"><strong>Haftalik maqsad</strong><span>4/5 soat</span></div>
+            <div class="progress-bar"><span></span></div>
+            <div class="chart">
+              <div class="chart-bar" style="height:42%"><small>Du</small></div>
+              <div class="chart-bar" style="height:68%"><small>Se</small></div>
+              <div class="chart-bar active" style="height:90%"><small>Ch</small></div>
+              <div class="chart-bar" style="height:55%"><small>Pa</small></div>
+              <div class="chart-bar" style="height:76%"><small>Ju</small></div>
+              <div class="chart-bar" style="height:35%"><small>Sh</small></div>
+              <div class="chart-bar" style="height:25%"><small>Ya</small></div>
+            </div>
+          </div>
+          <div class="floating-badge badge-top"><span class="badge-icon">✦</span><div><strong>Yangi bilim</strong><small>Har kuni bir qadam</small></div></div>
+          <div class="floating-badge badge-bottom"><span class="badge-icon purple">✓</span><div><strong>Kurs yakunlandi!</strong><small>Tabriklaymiz 🎉</small></div></div>
+          <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="container partners-inner"><span>O‘RGANISHDA ISHONCHLI HAMROH</span><div class="partner-logos"><b>◈ SkillUp</b><b>✳ Learnify</b><b>◉ NextGen</b><b>⌘ DevHub</b><b>✦ Bright</b></div></div>
+    </section>
+
+    <section class="section courses-section" id="courses">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow">SIZ UCHUN TANLANDI</div><h2>Ommabop <span>kurslar</span></h2></div>
+          <p>Eng talabgir yo‘nalishlar bo‘yicha<br>bilimingizni yangi bosqichga olib chiqing.</p>
+        </div>
+        <div class="course-tools">
+          <div class="search-box"><span>⌕</span><input id="courseSearch" type="search" placeholder="Kurs nomini qidiring..." aria-label="Kurs qidirish"></div>
+          <div class="filters" id="filters">
+            <button class="filter active" data-filter="all">Barchasi</button>
+            <button class="filter" data-filter="it">IT</button>
+            <button class="filter" data-filter="design">Dizayn</button>
+            <button class="filter" data-filter="business">Biznes</button>
+            <button class="filter" data-filter="language">Tillar</button>
+          </div>
+        </div>
+        <div class="course-grid" id="courseGrid">
+          <article class="course-card" data-category="it" data-title="Frontend dasturlash">
+            <div class="course-art art-blue"><span class="art-symbol">&lt;/&gt;</span><span class="art-tag">IT</span></div>
+            <div class="course-body"><div class="course-meta"><span>● Boshlang‘ich</span><span>◷ 8 hafta</span></div><h3>Frontend dasturlash</h3><p>HTML, CSS va JavaScript yordamida zamonaviy saytlar yarating.</p><div class="course-footer"><div class="rating">★ 4.9 <small>(1.2k)</small></div><strong>299 000 so‘m</strong></div><button class="enroll-btn" data-course="Frontend dasturlash">Kursga yozilish <span>→</span></button></div>
+          </article>
+          <article class="course-card" data-category="design" data-title="Grafik dizayn">
+            <div class="course-art art-pink"><span class="art-symbol">✳</span><span class="art-tag">DESIGN</span></div>
+            <div class="course-body"><div class="course-meta"><span>● O‘rta</span><span>◷ 6 hafta</span></div><h3>Grafik dizayn</h3><p>Kompozitsiya, rang va vizual fikrlash asoslarini o‘rganing.</p><div class="course-footer"><div class="rating">★ 4.8 <small>(860)</small></div><strong>249 000 so‘m</strong></div><button class="enroll-btn" data-course="Grafik dizayn">Kursga yozilish <span>→</span></button></div>
+          </article>
+          <article class="course-card" data-category="business" data-title="Digital marketing">
+            <div class="course-art art-orange"><span class="art-symbol">↗</span><span class="art-tag">BIZNES</span></div>
+            <div class="course-body"><div class="course-meta"><span>● Boshlang‘ich</span><span>◷ 5 hafta</span></div><h3>Digital marketing</h3><p>Auditoriya, kontent va reklama strategiyalarini ishlab chiqing.</p><div class="course-footer"><div class="rating">★ 4.9 <small>(740)</small></div><strong>279 000 so‘m</strong></div><button class="enroll-btn" data-course="Digital marketing">Kursga yozilish <span>→</span></button></div>
+          </article>
+          <article class="course-card" data-category="language" data-title="Ingliz tili">
+            <div class="course-art art-green"><span class="art-symbol">Aa</span><span class="art-tag">LANGUAGE</span></div>
+            <div class="course-body"><div class="course-meta"><span>● A1–B1</span><span>◷ 10 hafta</span></div><h3>Ingliz tili</h3><p>Amaliy mashqlar orqali so‘zlashuv va grammatikani rivojlantiring.</p><div class="course-footer"><div class="rating">★ 4.7 <small>(1.5k)</small></div><strong>199 000 so‘m</strong></div><button class="enroll-btn" data-course="Ingliz tili">Kursga yozilish <span>→</span></button></div>
+          </article>
+          <article class="course-card" data-category="it" data-title="Python dasturlash">
+            <div class="course-art art-purple"><span class="art-symbol">Py</span><span class="art-tag">IT</span></div>
+            <div class="course-body"><div class="course-meta"><span>● Boshlang‘ich</span><span>◷ 9 hafta</span></div><h3>Python dasturlash</h3><p>Algoritmlar va Python asosida dasturlashga ilk qadam qo‘ying.</p><div class="course-footer"><div class="rating">★ 4.9 <small>(980)</small></div><strong>319 000 so‘m</strong></div><button class="enroll-btn" data-course="Python dasturlash">Kursga yozilish <span>→</span></button></div>
+          </article>
+          <article class="course-card" data-category="design" data-title="UI UX dizayn">
+            <div class="course-art art-yellow"><span class="art-symbol">▧</span><span class="art-tag">DESIGN</span></div>
+            <div class="course-body"><div class="course-meta"><span>● O‘rta</span><span>◷ 7 hafta</span></div><h3>UI/UX dizayn</h3><p>Foydalanuvchiga qulay interfeyslar va prototiplar yarating.</p><div class="course-footer"><div class="rating">★ 4.8 <small>(630)</small></div><strong>289 000 so‘m</strong></div><button class="enroll-btn" data-course="UI/UX dizayn">Kursga yozilish <span>→</span></button></div>
+          </article>
+        </div>
+        <div class="empty-state" id="emptyState">Bu filtr bo‘yicha kurs topilmadi.</div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual"><div class="about-shape"></div><div class="about-stat"><strong>10+</strong><span>Yillik tajribaga<br>ega mentorlar</span></div><div class="about-note"><span>✦</span> O‘rgan. Amalda qo‘lla. Rivojlan.</div></div>
+        <div class="about-content"><div class="eyebrow">NEGA EDUNOVA?</div><h2>Ta’lim — bu<br><span>o‘zingizga</span> investitsiya.</h2><p>Biz bilim olishni sodda, qulay va samarali qilish uchun yaratilganmiz. O‘zingizga mos jadvalda o‘qing va o‘rganganlaringizni amaliy loyihalarda sinab ko‘ring.</p><div class="benefits"><div><span class="benefit-icon">✓</span><div><strong>Amaliy darslar</strong><small>Real loyihalar bilan tajriba orttiring.</small></div></div><div><span class="benefit-icon">✓</span><div><strong>Ustozlar ko‘magi</strong><small>Mentorlar bilan bilimlaringizni mustahkamlang.</small></div></div><div><span class="benefit-icon">✓</span><div><strong>Istalgan vaqtda</strong><small>O‘zingizga qulay vaqtda ta’lim oling.</small></div></div></div><a class="button button-primary" href="#courses">O‘rganishni boshlash <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section class="section reviews-section" id="reviews">
+      <div class="container"><div class="section-heading"><div><div class="eyebrow">O‘QUVCHILAR FIKRI</div><h2>Ularning natijasi —<br><span>bizning faxrimiz.</span></h2></div><p>EduNova bilan o‘z maqsadiga<br>erishgan o‘quvchilar fikrlari.</p></div>
+        <div class="review-grid"><article class="review-card"><div class="review-stars">★★★★★</div><p>“Frontend kursi orqali noldan boshladim. Darslar tushunarli va loyihalar juda foydali bo‘ldi.”</p><div class="review-person"><div class="avatar avatar-a">AS</div><div><strong>Azizbek S.</strong><small>Frontend kursi bitiruvchisi</small></div></div></article><article class="review-card"><div class="review-stars">★★★★★</div><p>“Dizayn bo‘yicha portfolio yig‘ishga yordam berdi. Endi buyurtmalar bilan ishlayapman.”</p><div class="review-person"><div class="avatar avatar-b">MD</div><div><strong>Madina D.</strong><small>Grafik dizayn o‘quvchisi</small></div></div></article><article class="review-card"><div class="review-stars">★★★★★</div><p>“Platforma qulay, darslarni o‘z vaqtimda ko‘rdim. Mentorlar savollarimga tez javob berishdi.”</p><div class="review-person"><div class="avatar avatar-c">JQ</div><div><strong>Javohir Q.</strong><small>Python kursi bitiruvchisi</small></div></div></article></div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq"><div class="container faq-grid"><div><div class="eyebrow">SAVOLLARINGIZ BORMI?</div><h2>Ko‘p beriladigan<br><span>savollar.</span></h2><p>Yana savolingiz bo‘lsa, biz bilan bog‘laning.</p><a class="text-link" href="mailto:hello@edunova.uz">hello@edunova.uz ↗</a></div><div class="faq-list">
+      <details open><summary>Kurslarni qanday boshlashim mumkin?<span>＋</span></summary><p>O‘zingizga mos kursni tanlang va “Kursga yozilish” tugmasini bosing. Keyingi qadamlar bo‘yicha sizga yo‘l-yo‘riq ko‘rsatiladi.</p></details>
+      <details><summary>Kurslar onlaynmi?<span>＋</span></summary><p>Ha, darslar onlayn formatda. Siz internet orqali istalgan joydan va o‘zingizga qulay vaqtda o‘qishingiz mumkin.</p></details>
+      <details><summary>Kurs yakunida sertifikat beriladimi?<span>＋</span></summary><p>Kursdagi yakuniy topshiriqlarni muvaffaqiyatli bajargan o‘quvchilar uchun sertifikat taqdim etiladi.</p></details>
+      <details><summary>Oldindan bilimga ega bo‘lish kerakmi?<span>＋</span></summary><p>Ko‘plab kurslar boshlang‘ich darajadan boshlanadi. Kurs kartasida daraja ko‘rsatilgan.</p></details>
+    </div></div></section>
+
+    <section class="cta-section"><div class="container cta-inner"><div><div class="eyebrow">BIRINCHI QADAMNI TASHLANG</div><h2>Kelajagingizni bugun<br>birga <span>quramiz.</span></h2></div><a class="button button-light" href="#courses">Kursni tanlash <span>→</span></a><div class="cta-decoration">✳</div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-top"><a class="logo" href="#"><span class="logo-mark">E</span> EduNova</a><p>Bilim sari qadam. Imkoniyatlar sari yo‘l.</p><div class="socials"><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="Telegram">tg</a><a href="#" aria-label="YouTube">▶</a></div></div><div class="container footer-bottom"><span>© 2026 EduNova. Barcha huquqlar himoyalangan.</span><span>O‘rganish hech qachon to‘xtamaydi ✦</span></div></footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>

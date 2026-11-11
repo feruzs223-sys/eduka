@@ -1,0 +1,1 @@
+EduNova — Education landing page\n\nFayllar:\n- index.html: sayt strukturasi\n- style.css: dizayn va responsive stillar\n- script.js: interaktiv funksiyalar\n\nIshga tushirish: index.html faylini brauzerda oching.\nInternet mavjud bo‘lsa Google Fonts shriftlari yuklanadi.\n
